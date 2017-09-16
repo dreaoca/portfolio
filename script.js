@@ -1,3 +1,6 @@
+
+  
+$(function() {
 $(window).scroll(function(){  
      if (window.location.hash == '' && $(window).scrollTop() == 0) {
          $('div.Nav').css({"opacity":"0.5"});
@@ -11,7 +14,12 @@ $(window).scroll(function(){
          $('div.Nav ul li a').css({"color":"#777"});
      }
 });  
-  
+
+});
+
+
+//
+//
 //
 //$(function() {
 //
