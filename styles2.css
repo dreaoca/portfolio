@@ -1,0 +1,231 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*@media (min-width: 769px) {
+    .main-header, .main-nav {
+        display: flex;
+    }
+
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1025px) {
+    .main-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+*/
+
+
+/*ul.main-nav {
+    list-style-type: none;
+}
+
+ul.main-nav li {
+    text-decoration: none;
+}
+
+*/
+
+html {
+    min-height: 100vh;
+}
+
+body * {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1, h2, p, li, a {
+    font-weight: 300;
+    color: #333333;
+}
+
+p, li {
+    font-size: .9em;
+    padding: 5px 10px;
+}
+
+h1 {
+    font-size: 1.7em;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+
+}
+
+nav {
+    padding: 15px;
+    background: #fff;
+    opacity: 0.5;
+    height: 25px;
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav ul {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+}
+
+nav ul li {
+    padding-right: 10px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a.currentLink {
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+
+div.title {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 5px 0 0 0;
+}
+
+div.background {
+/*    background-image: url(images/bg_plus.jpg); 
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    top: 0 !important;*/
+}
+
+div.background1, div.background2, div.background3, div.background4 {
+    background-position: center center;
+    height: 275px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    top: 0 !important;
+}
+
+div.background2 {
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+div.background3 {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+div.background4 {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+h1.hero {
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    color: #fff;
+    opacity: 0.7;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+    -webkit-font-smoothing: antialiased;*/
+}
+
+div.logo {
+/*    background-image: url(images/andrea.png);
+    height: 65px;
+    width: 25%;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-left: 50px;*/
+}
+
+div.startEnd {
+flex-direction: row;
+/*justify-content: center;*/
+}
+
+div.submain {
+justify-content: flex-start;
+flex: 3;
+padding: 0 5px 0 10px;
+}
+
+div.sidebar {
+flex: 1;
+padding: 0 10px 0 5px;
+}
+
+
+h2.submain, h2.sidebar {
+    font-size: 26px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: 1px solid #c2c2c2;
+}
+
+p.submain, p.sidebar {
+    border: 1px solid #c2c2c2;
+    margin-bottom: 1px;
+}
+
+ul.sidebar {
+    border: 1px solid #c2c2c2;
+}
+
+ul.sidebar li {
+    list-style-type: none;
+}
+
+div.push {
+    min-height: 50vh;
+}
+
+footer {
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+    height: 20px;
+}
+
+footer span {
+    align-items: center;
+    color: #fff;
+    font-size: .7em;
+}
+
+
+
+
