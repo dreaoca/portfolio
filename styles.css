@@ -19,6 +19,9 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+html {
+    text-rendering: optimizeLegibility;
+}
 
 body * {
     font-family: 'Open Sans', sans-serif;
@@ -28,7 +31,8 @@ body * {
 
 h1, h2, p, li, a {
     font-weight: 300;
-    color: #333333;
+/*    color: #333333;*/
+    color: #546e7a;
 }
 
 p, li {
@@ -82,7 +86,7 @@ div.background1, div.background2, div.background3, div.background4 {
 }
 
 div.background2 {
-    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(45deg, #9c27b0 0%, #2196f3 100%);
 }
 
 div.background3 {
@@ -170,6 +174,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 min-height: calc(100vh - 70px);
+background: #fafafa;    
 }
 
 div.submain {
@@ -177,6 +182,7 @@ justify-content: flex-start;
 flex: 3;
 padding: 10px 5px 10px 10px;
 margin-bottom: 25px;
+background: #fafafa;
 }
 
 div.sidebar {
@@ -227,6 +233,39 @@ footer p {
 
 
 
+/* ----------- iPhone 6 ----------- */
+
+
+@media only screen and (min-device-width : 200px) and (max-device-width : 480px) {
+    h1.hero {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.1em;
+    }
+    
+    h2.submain, p.submain {
+        border: none;
+    }
+    
+    div.content {
+        height: 150px;
+        width: 100%;
+    }
+    
+    div.sidebar {
+        display: none;
+    }
+    div.Nav {
+        position: relative;
+    }
+    div.Nav ul {
+        height: 40px;
+    }
+    div.background1, div.background2, div.background3, div.background4 {
+        height: 200px;
+    }
+}
 
 
 
