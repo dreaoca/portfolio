@@ -239,8 +239,10 @@ footer p {
 @media only screen and (min-device-width : 200px) and (max-device-width : 480px) {
     
     h1.hero {
-        font-size: 3em;
+        font-size: 4em;
         width: 100%;
+        opacity: 1;
+        font-weight: bold;
     }
     p {
         font-size: 	2.25em;
@@ -262,12 +264,14 @@ footer p {
     }
     
     div.content {
-        height: 200px;
+        height: 235px;
         width: 100%;
     }
     
     div.submain {
         padding: 35px 60px 10px 60px;
+        margin-top: 25px;
+
     }
     
     div.sidebar {
@@ -275,11 +279,13 @@ footer p {
     }
     div.Nav {
         position: relative;
+        opacity: 1;
     }
     div.Nav ul {
         float: left;
         height: 40px;
-        padding: 10px 0 0 50px;
+        padding: 0 0 0 50px;
+            margin-top: 25px;
     }
     div.Nav ul li a {
         font-size: 2.25em;
@@ -287,7 +293,11 @@ footer p {
     }
     
     div.background1, div.background2, div.background3, div.background4 {
-        height: 250px;
+        height: 300px;
+    }
+    
+    div.background1 {
+        background: #3cbdfe;
     }
     
     footer {
