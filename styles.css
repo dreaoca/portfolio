@@ -243,11 +243,13 @@ footer p {
         width: 100%;
         opacity: 1;
         font-weight: bold;
+        letter-spacing: 0PX;
     }
     p {
-        font-size: 	2.25em;
+        font-size: 	2.5em;
         line-height: 150%;
         padding: 15px 0;
+        color: #444;
     }
     
     h2.submain {
@@ -264,7 +266,7 @@ footer p {
     }
     
     div.content {
-        height: 235px;
+        height: 250px;
         width: 100%;
     }
     
@@ -285,19 +287,20 @@ footer p {
         float: left;
         height: 40px;
         padding: 0 0 0 50px;
-            margin-top: 25px;
+        margin-top: 20px;
     }
     div.Nav ul li a {
-        font-size: 2.25em;
+        font-size: 2.4em;
         color: white;
+        margin-top: 10px;
     }
     
     div.background1, div.background2, div.background3, div.background4 {
-        height: 300px;
+        height: 325px;
     }
     
     div.background1 {
-        background: #3cbdfe;
+        background: #4facfe;
     }
     
     footer {
