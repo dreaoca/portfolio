@@ -301,7 +301,7 @@ footer p {
     }
     
     div.background1 {
-        background: #1414cc;
+        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     }
     
     footer {
