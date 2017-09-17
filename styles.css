@@ -233,7 +233,7 @@ footer p {
 
 
 
-/* ----------- iPhone 6 ----------- */
+
 
 
 @media only screen and (min-device-width : 200px) and (max-device-width : 480px) {
@@ -243,20 +243,31 @@ footer p {
         width: 100%;
     }
     p {
-        font-size: 	1.75em;
+        font-size: 	2.25em;
+        line-height: 150%;
+        padding: 15px 0;
     }
     
     h2.submain {
-        font-size: 2.5em;
+        font-size: 3em;
+        padding: 0 0 20px 0;
     }
     
     h2.submain, p.submain {
         border: none;
     }
     
+    p.submain {
+        padding: 10px 0 20px 0;
+    }
+    
     div.content {
-        height: 150px;
+        height: 200px;
         width: 100%;
+    }
+    
+    div.submain {
+        padding: 35px 60px 10px 60px;
     }
     
     div.sidebar {
@@ -268,14 +279,24 @@ footer p {
     div.Nav ul {
         float: left;
         height: 40px;
+        padding: 10px 0 0 50px;
     }
     div.Nav ul li a {
-        font-size: 1.75em;
+        font-size: 2.25em;
         color: white;
     }
     
     div.background1, div.background2, div.background3, div.background4 {
-        height: 200px;
+        height: 250px;
+    }
+    
+    footer {
+        height: 70px;
+        padding: 10px 25px;
+    }
+    
+    footer p {
+        font-size: 2em;
     }
 }
 
