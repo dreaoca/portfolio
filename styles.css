@@ -81,12 +81,12 @@ div.background1, div.background2, div.background3, div.background4 {
     position: relative;
     background-position: center center;
     height: 300px;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background: linear-gradient(45deg, #9c27b0 0%, #2196f3 100%);
     top: 0 !important;
 }
 
 div.background2 {
-    background: linear-gradient(45deg, #9c27b0 0%, #2196f3 100%);
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
 div.background3 {
@@ -268,6 +268,7 @@ footer p {
     div.content {
         height: 250px;
         width: 100%;
+        margin-top: 85px;
     }
     
     div.submain {
