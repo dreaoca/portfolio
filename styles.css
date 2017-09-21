@@ -244,7 +244,8 @@ footer p {
         width: 100%;
         opacity: 1;
         font-weight: bold;
-        letter-spacing: 0PX;
+        letter-spacing: 0px;
+        padding-top: 0;
     }
     p {
         font-size: 	2.5em;
@@ -280,6 +281,11 @@ footer p {
     div.sidebar {
         display: none;
     }
+
+    div.logo {
+        display: none;
+    }
+
     div.Nav {
         position: relative;
         opacity: 1;
